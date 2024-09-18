@@ -41,7 +41,15 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Learn",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "group": "Guides",
       "pages": [
         "essentials/markdown",
         "essentials/code",
