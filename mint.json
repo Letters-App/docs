@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Letters.App",
-  "layout": "sidenav",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
     
   },
+  "layout": "sidenav",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#35B9E9",
