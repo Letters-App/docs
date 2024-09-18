@@ -6,7 +6,7 @@
     "light": "/logo/light.svg"
     
   },
-  "layout": "sidenav",
+  "layout": "solidSidenav",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#35B9E9",
