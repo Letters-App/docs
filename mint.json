@@ -29,16 +29,7 @@
 
   ],
   "anchors": [
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://letters.app/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://letters.app/blog"
-    }
+    
   ],
   "navigation": [
     {
