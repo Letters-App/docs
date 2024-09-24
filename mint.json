@@ -4,7 +4,6 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
-    
   },
   "layout": "solidSidenav",
   "search": "side",
@@ -28,12 +27,8 @@
     "name": "Dashboard",
     "url": "https://app.letters.app"
   },
-  "tabs": [
-
-  ],
-  "anchors": [
-    
-  ],
+  "tabs": [],
+  "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
@@ -54,48 +49,41 @@
         "essentials/reusable-snippets"
       ]
     },
-
     {
       "group": "Letters",
       "pages": [
         "essentials/markdown",
-        "essentials/code",
+        "essentials/code"
       ]
     },
-
-  {
+    {
       "group": "Transcribe",
       "pages": [
         "essentials/markdown",
-        "essentials/code",
+        "essentials/code"
       ]
     },
-
     {
       "group": "Chat",
       "pages": [
         "essentials/markdown",
-        "essentials/code",
+        "essentials/code"
       ]
     },
-
     {
       "group": "Customisation",
       "pages": [
         "essentials/markdown",
-        "essentials/code",
+        "essentials/code"
       ]
     },
-     
     {
-      "group": "Privacy & Security ",
+      "group": "Privacy & Security",
       "pages": [
         "essentials/markdown",
-        "essentials/code",
+        "essentials/code"
       ]
-    },
-    
-    
+    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
