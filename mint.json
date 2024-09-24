@@ -51,35 +51,31 @@
     {
       "group": "Letters",
       "pages": [
-        "essentials/markdown",
-        "essentials/code"
+        "letters/letters"
       ]
     },
     {
       "group": "Transcribe",
       "pages": [
-        "essentials/markdown",
-        "essentials/code"
+        "transcribe/markdown"
       ]
     },
     {
       "group": "Chat",
       "pages": [
-        "essentials/markdown",
-        "essentials/code"
+        "chat/markdown"
       ]
     },
     {
       "group": "Customisation",
       "pages": [
-        "essentials/markdown",
-        "essentials/code"
+        "customise/markdown"
       ]
     },
     {
       "group": "Privacy & Security",
       "pages": [
-        "essentials/markdown",
+        "privacy/markdown",
         "essentials/code"
       ]
     }
