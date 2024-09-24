@@ -5,7 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "layout": "sidenav",
+  "layout": "topnav",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#35B9E9",
