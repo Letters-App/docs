@@ -44,13 +44,6 @@
       ]
     },
     {
-      "group": "Learn",
-      "pages": [
-        "quickstart",
-        "privacyandsecurity"
-      ]
-    },
-    {
       "group": "Guides",
       "pages": [
         "essentials/markdown",
@@ -62,6 +55,46 @@
       ]
     },
 
+    {
+      "group": "Letters",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+      ]
+    },
+
+  {
+      "group": "Transcribe",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+      ]
+    },
+
+    {
+      "group": "Chat",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+      ]
+    },
+
+    {
+      "group": "Customisation",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+      ]
+    },
+     
+    {
+      "group": "Privacy & Security ",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+      ]
+    },
+    
     
   ],
   "footerSocials": {
