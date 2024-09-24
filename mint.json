@@ -47,19 +47,19 @@
     {
       "group": "Transcribe",
       "pages": [
-        "transcribe/markdown"
+        "transcribe/overview"
       ]
     },
     {
       "group": "Chat",
       "pages": [
-        "chat/markdown"
+        "chat/overview"
       ]
     },
     {
       "group": "Customisation",
       "pages": [
-        "customise/markdown"
+        "customise/overview"
       ]
     },
     {
