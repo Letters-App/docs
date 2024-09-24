@@ -65,9 +65,8 @@
     {
       "group": "Privacy & Security",
       "pages": [
-        "privacy/markdown",
-        "essentials/code"
-      ]
+        "privacy/overview"
+        ]
     }
   ],
   "footerSocials": {
