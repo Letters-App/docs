@@ -46,9 +46,8 @@
     {
       "group": "Learn",
       "pages": [
-        "introduction",
         "quickstart",
-        "development"
+        "privacyandsecurity"
       ]
     },
     {
