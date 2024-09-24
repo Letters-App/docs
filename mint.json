@@ -6,7 +6,6 @@
     "light": "/logo/light.svg"
   },
   "layout": "solidSidenav",
-  "search": "side",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#35B9E9",
