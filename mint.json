@@ -27,7 +27,14 @@
     "url": "https://app.letters.app"
   },
   "tabs": [],
-  "anchors": [],
+  "anchors": [
+    {
+      "name": "API Components",
+      "icon": "rectangle-terminal",
+      "color": "#f59f0b",
+      "url": "api-components"
+    }
+    ],
   "navigation": [
     {
       "group": "Get Started",
