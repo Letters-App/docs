@@ -41,7 +41,9 @@
       "pages": [
         "introduction",
         "privacyandsecurity",
-        "microphone"
+        "microphone",
+        "practices",
+        "settings",
       ]
     },
 
