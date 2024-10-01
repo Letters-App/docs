@@ -74,7 +74,8 @@
     {
       "group": "Privacy & Security",
       "pages": [
-        "privacy/overview"
+        "privacy/overview",
+        "privacy/consent"
         ]
     }
   ],
