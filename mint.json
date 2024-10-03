@@ -52,6 +52,7 @@
       "group": "Letters",
       "pages": [
         "letters/overview",
+        "letters/creatingaletter",
         "letters/transferdata"
 
       ]
