@@ -7,7 +7,6 @@
   },
   "layout": "sidenav",
   "favicon": "/favicon.svg",
-  "search": "side",
   "colors": {
     "primary": "#35B9E9",
     "light": "#35B9E9",
