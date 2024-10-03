@@ -60,7 +60,8 @@
     {
       "group": "Transcribe",
       "pages": [
-        "transcribe/overview"
+        "transcribe/overview",
+        "transcribe/newtranscription"
       ]
     },
     {
