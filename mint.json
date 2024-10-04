@@ -7,6 +7,8 @@
   },
   "layout": "sidenav",
   "favicon": "/favicon.svg",
+  "theme": "quill",
+  "rounded": "default",
   "colors": {
     "primary": "#35B9E9",
     "light": "#35B9E9",
