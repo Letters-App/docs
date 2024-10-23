@@ -63,9 +63,9 @@
       ]
     },
     {
-      "group": "Chat",
+      "group": "Assistant",
       "pages": [
-        "chat/overview"
+        "assistant/overview"
       ]
     },
     {
