@@ -5,38 +5,44 @@ icon: 'spinner'
 ---
 
 <Steps>
+
   <Step title="Transcription Setup">
   To create your first transcription, click **New Transcription** in the transcribe pane of the homepage, and give it a name.
 
-<Note>Consultiation mode allows you to listen for multiple speakers</Note>
+<Note>Consultation mode allows you to detect multiple speakers.</Note>
 
   </Step>
+
   <Step title="Record and Upload Audio">
-  Record a new transcription by clicking **Start** in the record menu of the record Audio Pane. 
+  Record a new transcription by clicking **Start** in the record menu of the record audio pane. 
+
 <Frame>
   <img src="/images/recordtranscript.jpg" />
 </Frame>
-Alternatively, upload an audio file in the upload menu.
+
+Alternatively, upload an audio file from the upload menu.
+
 <Frame>
   <img src="/images/upload audio.jpg" />
 </Frame>
 
   </Step>
+
   <Step title="Transcription Generated">
-  Upon completion of a recording, a transcript will be generated in transcript pane. The transcript pane provides various editing and organisation options.
-  
+  Upon completion of a recording, a transcript will be generated in the transcript pane, which offers various editing and organisation options.
+
 <AccordionGroup>
+
   <Accordion title="Name Speakers" icon="microphone">
-    In consulation transcription format, each speaker is labelled by number. Each speaker can be given a unique name in this menu.
+    In consultation transcription format, speakers are labelled by number. You can assign each speaker a unique name here.
 
     <Frame>
-  <img src="/images/namespeaker.jpg" />
+      <img src="/images/namespeaker.jpg" />
     </Frame>
-
   </Accordion>
 
   <Accordion title="Copy" icon="copy">
-    Copy the transcription text for uses in other applications.
+    Copy the transcription text for use in other applications.
   </Accordion>
 
   <Accordion title="Edit" icon="pencil">
@@ -44,44 +50,51 @@ Alternatively, upload an audio file in the upload menu.
   </Accordion>
 
   <Accordion title="Action Menu" icon="bolt">
-    Copy the transcription text to an <Tooltip tip="Ask AI questions regarding your letter">AI Chat</Tooltip>, or <Tooltip tip="Allows you to link a patient letter and transcript file">attach to a letter</Tooltip>.  
+    Use the transcription text with the AI Assistant to ask questions or generate letters, or attach it to a patient letter.
 
      <Frame>
-  <img src="/images/save.jpg" />
+      <img src="/images/save.jpg" />
     </Frame>
-
   </Accordion>
+
 </AccordionGroup>
 
   </Step>
 
   <Step title="Intelligence">
-     Intelligence allow you customise how transcription intelligence works.
+  Intelligence allows you to customise how transcription intelligence works.
 
-     <Frame>
-  <img src="/images/manageintelligence.jpg" />
-</Frame>
+  <Frame>
+    <img src="/images/manageintelligence.jpg" />
+  </Frame>
 
   <AccordionGroup>
+
     <Accordion title="Custom Instructions" icon="wand-magic-sparkles">
-    Customise intelligence output by entering your own instructions such as language style, or summary format.
+    Customise output with your own instructions, such as language style or summary format.
     </Accordion>
 
     <Accordion title="Type" icon="list">
-    Customise the style of transcription including <Tooltip tip="Provides a concise overview of the transcription, focusing on key points and main takeaways.">Summary</Tooltip>, <Tooltip tip="Transcribes the dictation using the SOAP format (Subjective, Objective, Assessment, Plan), a standard method for documenting clinical notes.">SOAP Notes</Tooltip>, <Tooltip tip="Simplifies the dictation to make it easily understandable for patients by removing medical jargon and technical terms,">Patient-Friendly</Tooltip> and <Tooltip tip="Provides a thorough and in-depth transcription of the dictation, including all details and observations with minimal summarisation.">Detailed Report</Tooltip>.
+    Choose the style of transcription, such as:
+    - **Summary**: A concise overview focusing on key points.
+    - **SOAP Notes**: Uses the standard medical format (Subjective, Objective, Assessment, Plan).
+    - **Patient-Friendly**: Simplifies language for patient understanding.
+    - **Detailed Report**: Provides comprehensive detail with minimal summarisation.
     </Accordion>
 
     <Accordion title="Format" icon="paragraph">
-    Customise the structure of transcription including <Tooltip tip="Generate without a predefined structure, allowing full flexibility in how the content is presented.">Freestyle</Tooltip>, <Tooltip tip="Organises the transcription into sections with headings and bullet points, making it easy to scan and read quickly.">Headings & Bullet Points</Tooltip> and <Tooltip tip="Organises the transcription into sections with headings and paragraphs, providing a more detailed and structured output.">Headings & Paragraphs</Tooltip>.
+    Select how the transcription is structured:
+    - **Freestyle**: No predefined structure for flexible output.
+    - **Headings & Bullet Points**: Organised for easy scanning.
+    - **Headings & Paragraphs**: Structured for detailed documentation.
     </Accordion>
 
     <Accordion title="Additional Instructions" icon="comment">
-    Provide any additional instructions for the AI to generate a transcription.
+    Provide further instructions for the AI to generate the transcription.
     </Accordion>
+
   </AccordionGroup>
 
   </Step>
 
 </Steps>
-
-
