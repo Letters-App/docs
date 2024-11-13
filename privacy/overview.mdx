@@ -10,42 +10,49 @@ Letters is designed with privacy and security as the top priorities, ensuring fu
 
 ### Data Sovereignty and Handling
 
-- **Data Sovereignty**: All health data is processed and stored within Australia, ensuring complete sovereignty and avoiding overseas data handling risks.
-- **No Permanent Audio Storage**: Audio is transcribed in real-time on Australian servers, and once the transcription is complete, the audio is deleted, ensuring no audio is stored permanently.
+* **Data Sovereignty**: All health data is processed and stored within Australia, ensuring complete sovereignty and avoiding overseas data handling risks.
 
-### Robust Encryption and Controlled Access
+* **No Permanent Audio Storage**: All audio is transcribed in real-time on our secure Sydney servers. Audio files are hard-deleted immediately following processing, and all audio is processed without leaving Australia. Only the resulting transcript is stored.
 
-- **256-bit Encryption**: We use bank-level encryption for all data in transit and at rest, hosted on our Australian AWS infrastructure.
-- **Controlled Access**: Access to stored information is tightly controlled under strict data processing agreements with AWS, ensuring no third-party access to patient data, including AWS itself.
+### **Robust Encryption and Controlled Access**
 
-### Localised Data Processing and AI Use
+* **256-bit Encryption**: We use bank-level encryption for all data in transit and at rest, hosted on our Australian Azure and Google Cloud infrastructure.
 
-All transcription and large language model (LLM) processing occurs on Microsoft Azure servers in Sydney. None of the user data is used for AI training or stored by Azure. Data is processed and immediately deleted after consultation unless the healthcare provider requests otherwise.
+* **Controlled Access**: Access to stored information is tightly controlled under strict data processing agreements with Azure and Google Cloud, ensuring no third-party access to patient data, including Azure and Google themselves.
+
+### **Localised Data Processing and AI Use**
+
+* **LLM Processing**: All transcription and large language model (LLM) processing occurs on Microsoft Azure servers in Sydney. Our models are deployed in adherence to the Azure Data Residency Promise, ensuring no user data is stored or processed outside of Australia or used for training purposes.
+
+* **Documents Processing**: Documents and files you upload into Letters are processed on Australian servers by LLM models immediately upon upload. These models strip non-relevant text, and only the resulting output is stored. Similar to audio, your original file is hard-deleted immediately following processing.
 
 ### Medicolegal Assurance
 
 Letters has been designed to meet the highest compliance and safety standards. This ensures Letters is safe to use in medical consultations, as long as appropriate patient consent is obtained.
 
-- **Patient Consent**: Consent is required for all consultations. Letters prompts you to ask for consent before every session and stores the consent with a timestamp to provide protection against medicolegal risks.
-- **Patient Consent Methods**: Over 99.5% of patients provide consent during their first consultation. In addition to verbal consent, practices can use a written consent form via their practice registration process.
+* **Patient Consent**: Consent is required for all consultations. Letters prompts you to ask for consent before every session and stores the consent with a timestamp to provide protection against medicolegal risks.
+
+* **Patient Consent Methods**: Over 99.5% of patients provide consent during their first consultation. In addition to verbal consent, practices can use a written consent form via their practice registration process.
 
 ### Data Retention and Custom Settings
 
-By default, all documents are stored for 7 days, with options to reduce this to 24 hours or extend it up to 28 days. This flexible retention policy allows you to control how long documents remain stored on our servers.
+By default, all audio and files you upload to Letters is deleted immediately following processing, with only the output being stored.&#x20;
 
-- **Flexible Retention**: Choose to store documents from 24 hours to 28 days. After the retention period, documents are permanently deleted.
-- **Customisable Privacy**: We provide an A4 Privacy Information printout for your clinic to help inform patients about how their data is safeguarded. 
+* **You're in control**: Your data is in your control. Delete it at any time, in **Settings** > **Privacy** > **Wipe My Data**.
+
+* **Customisable Privacy**: We provide an A4 Privacy Information printout for your clinic to help inform patients about how their data is safeguarded.
 
 ### Security Protocols and Legal Compliance
 
 Letters adheres to the highest security standards in the industry.
 
-- **TGA Compliance**: Letters is exempt from **Therapeutic Goods Administration (TGA)** regulations, but we maintain stringent standards to ensure safe, non-reliant clinical decision support.
+* **TGA Compliance**: Letters is exempt from **Therapeutic Goods Administration (TGA)** regulations, but we maintain stringent standards to ensure safe, non-reliant clinical decision support.
 
 ### Enhanced Access Controls
 
-- **Access Management**: Strict access controls are based on the principle of 'Least Privilege', ensuring that only authorised personnel have access to sensitive information.
-- **Secure Billing Information**: We allow organisations to manage subscriptions and billing securely within the platform.
+* **Access Management**: Strict access controls are based on the principle of 'Least Privilege', ensuring that only authorised personnel have access to sensitive information.
+
+* **Secure Billing Information**: We allow organisations to manage subscriptions and billing securely within the platform.
 
 ### Learn More
 
