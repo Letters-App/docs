@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Letters.App",
+  "name": "Letters",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -8,12 +8,12 @@
   "layout": "sidenav",
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#35B9E9",
-    "light": "#35B9E9",
-    "dark": "#164564",
+    "primary": "#2597D0",
+    "light": "#2597D0",
+    "dark": "#1F7EAD",
     "anchors": {
-      "from": "#164564",
-      "to": "#1F87AD"
+      "from": "#1F7EAD",
+      "to": "#18658B"
     }
   },
   "topbarLinks": [
