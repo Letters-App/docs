@@ -5,99 +5,91 @@ icon: 'spinner'
 ---
 
 <Steps>
-
   <Step title="Transcription Setup">
-  To create your first transcription, click **New Transcription** in the transcribe pane on the homepage.
-
+    To create your first transcription, click **New Transcription** in the transcribe pane on the homepage.
   </Step>
 
   <Step title="Consultation Mode">
-  You can choose to use consultation mode. This mode allows Letters to detect multiple speakers and name them accordingly in the transcription output.
-
+    You can choose to use consultation mode. This mode allows Letters to detect multiple speakers and name them accordingly in the transcription output.
   </Step>
 
   <Step title="Record and Upload Audio">
-  Record a new transcription by clicking **Start** in the record menu of the audio pane. 
+    Record a new transcription by clicking **Start** in the record menu of the audio pane.
 
-<Frame>
-  <img src="/images/recordtranscript.jpg" />
-</Frame>
+    <Frame>
+      <img src="/images/recordtranscript.jpg" />
+    </Frame>
 
-Alternatively, upload an audio file from the upload menu.
+    Alternatively, upload an audio file from the upload menu.
 
-<Frame>
-  <img src="/images/upload audio.jpg" />
-</Frame>
-
+    <Frame>
+      <img src="/images/upload audio.jpg" />
+    </Frame>
   </Step>
 
   <Step title="Transcription Generated">
-  Upon completion of a recording, a transcript will be generated in the transcript pane, which offers various editing and organisation options.
+    Upon completion of a recording, a transcript will be generated in the transcript pane, which offers various editing and organisation options.
 
-<AccordionGroup>
+    <AccordionGroup>
+      <Accordion title="Detect and Name Speakers" icon="microphone">
+        If using consultation mode, you can detect and name the speakers.
 
-  <Accordion title="Detect and Name Speakers" icon="microphone">
-    If using consultation mode, you can detect and name the speakers.
+        <Frame>
+          <img src="/images/namespeaker.jpg" />
+        </Frame>
+      </Accordion>
 
-    <Frame>
-      <img src="/images/namespeaker.jpg" />
-    </Frame>
-  </Accordion>
+      <Accordion title="Edit" icon="pencil">
+        Manually edit the generated transcription text.
+      </Accordion>
 
-  <Accordion title="Copy" icon="copy">
-    Copy the transcription text for use in other applications.
-  </Accordion>
+      <Accordion title="Action Menu" icon="bolt">
+        Copy the transcript into a conversation with Assistant, attach it as a source to a Letter, or copy it to use elsewhere.
 
-  <Accordion title="Edit" icon="pencil">
-    Manually edit the generated transcription text.
-  </Accordion>
-
-  <Accordion title="Action Menu" icon="bolt">
-    Use the transcription text with the AI Assistant to ask questions or generate letters, or attach it to a patient letter.
-
-     <Frame>
-      <img src="/images/save.jpg" />
-    </Frame>
-  </Accordion>
-
-</AccordionGroup>
-
+        <Frame>
+          <img src="/images/save.jpg" />
+        </Frame>
+      </Accordion>
+    </AccordionGroup>
   </Step>
 
   <Step title="Intelligence">
-  Intelligence allows you to customise how transcription intelligence works.
+    Intelligence allows you to customise how transcription intelligence works.
 
-  <Frame>
-    <img src="/images/manageintelligence.jpg" />
-  </Frame>
+    <Frame>
+      <img src="/images/manageintelligence.jpg" />
+    </Frame>
 
-  <AccordionGroup>
+    <AccordionGroup>
+      <Accordion title="Custom Instructions" icon="wand-magic-sparkles">
+        Customise the output with your own instructions, such as language style or summary format.
+      </Accordion>
 
-    <Accordion title="Custom Instructions" icon="wand-magic-sparkles">
-    Customise the output with your own instructions, such as language style or summary format.
-    </Accordion>
+      <Accordion title="Type" icon="list">
+        Choose the style of transcription, such as:
 
-    <Accordion title="Type" icon="list">
-    Choose the style of transcription, such as:
-    - **Summary**: A concise overview focusing on key points.
-    - **SOAP Notes**: Uses the standard medical format (Subjective, Objective, Assessment, Plan).
-    - **Patient-Friendly**: Simplifies language for patient understanding.
-    - **Detailed Report**: Provides comprehensive detail with minimal summarisation.
-    </Accordion>
+        * **Summary**: A concise overview focusing on key points.
 
-    <Accordion title="Format" icon="paragraph">
-    Select how the transcription is structured:
-    - **Freestyle**: No predefined structure for flexible output.
-    - **Headings & Bullet Points**: Organised for easy scanning.
-    - **Headings & Paragraphs**: Structured for detailed documentation.
-    </Accordion>
+        * **SOAP Notes**: Uses the standard medical format (Subjective, Objective, Assessment, Plan).
 
-    <Accordion title="Additional Instructions" icon="comment">
-    Provide further instructions for the AI to generate the transcription.
-    </Accordion>
+        * **Patient-Friendly**: Simplifies language for patient understanding.
 
-  </AccordionGroup>
+        * **Detailed Report**: Provides comprehensive detail with minimal summarisation.
+      </Accordion>
 
+      <Accordion title="Format" icon="paragraph">
+        Select how the transcription is structured:
+
+        * **Freestyle**: No predefined structure for flexible output.
+
+        * **Headings & Bullet Points**: Organised for easy scanning.
+
+        * **Headings & Paragraphs**: Structured for detailed documentation.
+      </Accordion>
+
+      <Accordion title="Additional Instructions" icon="comment">
+        Provide further instructions for the AI to generate the transcription.
+      </Accordion>
+    </AccordionGroup>
   </Step>
-
 </Steps>
