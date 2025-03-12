@@ -1,35 +1,39 @@
 ---
 title: 'Customising Letters and Features'  
-description: 'Create, upload, and customise your own documents using Letters, Transcribe, and Chat'  
+description: 'Create, upload, and customise your own documents using Letters, Transcribe, and Assistant'  
 icon: 'paintbrush'  
 ---
 
 ## Customise Your Documents
 
-Customisation allows you to tailor aspects of your workflow, such as letter templates, transcription accuracy, and chat functionalities. Here’s how you can customise different areas:
+Customisation allows you to tailor aspects of your workflow, such as letter templates, transcription accuracy, and Assistant functionalities. Here’s how you can customise different areas:
 
 <Frame>
   <img src="/images/customise.jpg" />
 </Frame>
 
 <AccordionGroup>
+
   <Accordion title="Letters" icon="envelope">
     * **Letter Types**: Create and manage your letter types.
-
-    * **Saved Edits**: Save requested edits for future use.
+    * **Requested Edits**: Save requested edits for future letters.
+    * **Weight & Height Field + BMI**: Add weight and height fields to letter setup, with automatic BMI calculation.
+    * **Details Section**: Add optional name, pronoun, and date fields to letter setup.
   </Accordion>
 
   <Accordion title="Transcribe" icon="microphone">
-    * **Dictionary**: Add personal, midetected terms to improve transcription accuracy.
-
-    * **Intelligence**: Customise transcriptions into formats like patient summaries or SOAP notes.
+    * **Dictionary**: Add custom words to improve transcription accuracy.
+    * **Intelligence**: Enable automatic summarisation and analysis of transcriptions.
+    * **Your Notes Section**: Add space to take notes during transcription, incorporating into Intelligence & Letters.
+    * **Skip Transcript (Intelligence only)**: Process audio directly into Intelligence for faster output.
+    * **Show Consent Pop-up**: A prompt at the start of each recording to request patient consent.
+    * **Remove Casual Conversation**: Exclude casual, non-medical speech from transcriptions.
   </Accordion>
 
-  <Accordion title="Chat" icon="message">
-    * **Shortcuts**: Predefine message flows to streamline chat efficiency.
-
-    * **Memory**: Save information for future use in conversations.
-
-    * **Voice**: Customise the voice used for spoken messages.
+  <Accordion title="Assistant" icon="message">
+    * **Shortcuts**: Create shortcuts for frequent requests to save time.
+    * **Memory**: Customise memory for future conversations.
+    * **Voice**: Change the voice used for spoken messages.
   </Accordion>
+
 </AccordionGroup>
