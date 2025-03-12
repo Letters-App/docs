@@ -48,7 +48,7 @@
     },
 
      {
-      "group": Devices",
+      "group": :"Devices",
       "pages": [
         "iPad",
         "iPhone Companion App",
