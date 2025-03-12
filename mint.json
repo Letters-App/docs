@@ -47,14 +47,6 @@
       ]
     },
 
-     {
-      "group": :"Devices",
-      "pages": [
-        "iPad",
-        "iPhone Companion App",
-
-      ]
-    },
 
     {
       "group": "Letters",
@@ -69,7 +61,8 @@
       "group": "Transcribe",
       "pages": [
         "transcribe/overview",
-        "transcribe/newtranscription"
+        "transcribe/newtranscription",
+        "transcribe/iphone"
       ]
     },
     {
