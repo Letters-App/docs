@@ -47,6 +47,15 @@
       ]
     },
 
+     {
+      "group": Devices",
+      "pages": [
+        "iPad",
+        "iPhone Companion App",
+
+      ]
+    },
+
     {
       "group": "Letters",
       "pages": [
