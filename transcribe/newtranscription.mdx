@@ -1,41 +1,35 @@
 ---
-title: 'Your First Transcription'
-description: 'How to create your first transcription by recording or uploading audio.'
-icon: 'spinner'
+title: "Your First Transcription"
+description: "How to create your first transcription by recording or uploading audio."
+icon: "spinner"
 ---
 
 <Steps>
   <Step title="Transcription Setup">
     To create your first transcription, click **New Transcription** in the transcribe pane on the homepage. You will be prompted to enter the Patient Name to begin.
   </Step>
-
   <Step title="Consultation Mode">
     You can choose to use consultation mode. This mode allows Letters to detect multiple speakers and name them accordingly in the transcription output.
   </Step>
-
   <Step title="Record and Upload Audio">
     Record a new transcription by clicking **Start** in the record menu of the audio pane.
 
     <Frame>
-      <img src="/images/recordtranscript.jpg" />
+      ![](/images/recordtranscript.jpg)
     </Frame>
-
     Alternatively, upload an audio file from the upload menu.
 
     <Frame>
-      <img src="/images/upload audio.jpg" />
+      ![](/images/upload audio.jpg)
     </Frame>
   </Step>
-
   <Step title="Your Notes">
-    You can also input your own notes to be used in the transcription for things you have not said out aloud. 
+    You can also input your own notes to be used in the transcription for things you have not said out aloud.
 
     <Frame>
-      <img src="/images/yournotes.jpg" />
+      ![](/images/yournotes.jpg)
     </Frame>
-
-    </Step>
-
+  </Step>
   <Step title="Transcription Generated">
     Upon completion of a recording, a transcript will be generated in the transcript pane, which offers various editing and organisation options.
 
@@ -44,52 +38,47 @@ icon: 'spinner'
         If using consultation mode, you can detect and name the speakers by clicking manage speakers.
 
         <Frame>
-          <img src="/images/namespeaker.jpg" />
+          ![](/images/namespeaker.jpg)
         </Frame>
       </Accordion>
-
       <Accordion title="Edit" icon="pencil">
         Manually edit the generated transcription text.
       </Accordion>
-
-      <Accordion title="Write" Letter" icon=letter">
-        Start a new Letter and automaticlly add the transcription as a source.
+      <Accordion title="Write Letter" icon="letter">
+        Start a new Letter and automatically add the transcription as a source.
       </Accordion>
-
       <Accordion title="Action Menu" icon="bolt">
         Copy the transcript into a conversation with Assistant, attach it as a source to a Letter, or copy it to use elsewhere.
 
         <Frame>
-          <img src="/images/save.jpg" />
+          ![](/images/save.jpg)
         </Frame>
       </Accordion>
-
-      
     </AccordionGroup>
   </Step>
-
   <Step title="Intelligence">
-    Intelligence allows you to customise how transcription intelligence works. You can enable intelligence in the Transcription Output Pane.&#x20;
+    Intelligence allows you to customise how your transcription is interpreted and summarised. You can manage this from the **Intelligence** tab in the Transcription Output Pane.
 
-      <Frame>
+    <Frame>
       ![](/images/viewintelligence.jpg)
     </Frame>
+    You will be given the option to choose an **Intelligence Type**:
 
-    You will be given the option to choose the type of Intelligence:
+    - **Notes**: A detailed clinical summary with structured headings (e.g. Presenting Complaint, History, Examination).
+    - **Patient Summary**: A simplified version of the notes, optimised for patient understanding.
 
-    * **Clinical Notes**: A concise overview focusing on key points.
+    **AI Suggestions**\
+    Based on the content of your transcript, the Assistant will generate real-time suggestions—such as **Disease Fact Sheets** or **Patient Action Plans**—to support clinical workflows.
 
-    * **Patient-Friendly**: Simplifies language for patient understanding.
-
-    * **Custom**: You can also customise your Intelligence by Adjusting the format or adding Additional instructions to provide further instructions for the AI to generate the transcription.
-
-      <Frame>
-      ![](/images/manageintelligence.jpg)
+    <Frame>
+     ![](/ai.jpg)
     </Frame>
 
-  
-    
+    **Custom Intelligence Types**\
+    You can also create your own **Custom Type** to match your preferred documentation style. Give it a name (e.g. SOAP Notes) and provide formatting instructions. Once saved, it becomes reusable across all future transcriptions.
 
-  
+    <Frame>
+      ![](/customintell.jpg)
+    </Frame>
   </Step>
 </Steps>
