@@ -62,6 +62,7 @@
       "pages": [
         "transcribe/overview",
         "transcribe/newtranscription",
+        "transcribe/Intelligence",
         "transcribe/iphone"
       ]
     },
